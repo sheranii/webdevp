@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="regform.css">
+    <link rel="icon" href="">
+</head>
+<body>
+    <div class="form-container">
+         <h1> Registration Form </h1>
+     <form action="/submit-url" method="post">
+
+    <div>
+    <label for="firstn"> First Name:- </label>
+    <input type="text" id="firstn" name="firstn" pattern="[a-z-A-Z]"title="enter the required letters onlyy" required>
+    </div>
+
+    <div>
+    <label for="lastn"> Last Name:- </label>
+    <input type="text" id="lastn" name="lastn" pattern="[a-z-A-Z]"title="enter the required a-z onlyy" required>
+    </div>
+
+    <div>
+    <label for="email"> Email Address:- </label>
+    <input type="email" id="email" name="email" placeholder="you@example.com" title="enter the correct format" required>
+    </div>
+
+    <div>
+    <label for="age"> Age:- </label>
+    <input type="number" id="age" name="age" min="18" max="99" placeholder="enter age btwn 18 and 99" required>
+    </div>
+
+    <div>
+    <label for="phnn"> Phone Number:- </label>
+    <input type="tel" id="phnn" name="phnn" pattern="[0-9]{10}" text="10 digit phone number only" placeholder="1234567890" required>
+    </div>
+
+    <div>
+        <label for="pswd"> Password:- </label>
+        <input type="password" id="pswd" name="pswd" pattern="[0-9a-zA-z]{8,}" text="enter the correct pswd" palceholder="atleast 8 charcters" required>
+    </div>
+    <div>
+        <label form="dob"> Date of Birth:- </label>
+        <input type="date" id="dob" name="dob" required>
+    </div>
+    <div>
+     <button type="submit">Submit</button>
+</div>
+
+<iframe 
+ width="391" 
+ height="695" 
+ src="https://www.youtube.com/embed/7TKTW06aAP8" 
+ title="fill ur form" 
+ allowfullscreen> 
+</iframe>
+    </form>
+    </div>
+
+
+
+    
+
+
+
+
+
+</body>
+</html>
